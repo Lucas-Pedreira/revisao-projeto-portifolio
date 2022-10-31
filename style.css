@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+header{
+    color: #666666;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 55px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chave-logo{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+.logo-name{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-items{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    width: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.page-items a{
+    padding: 4px 8px;
+}
+.page-items a:hover{
+    background-color: darkgrey;
+}
+
+.social-icons{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-home{
+    min-height: calc(100vh - 55px);
+    display: flex;
+    align-items: center;
+}
+
+.section-home-item{
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #42446e;
+    display: flex;
+    justify-content: space-evenly;
+}
+.my-name{
+    background: linear-gradient(90deg,#00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.img-home-perfil{
+    border-radius: 50%;
+}
